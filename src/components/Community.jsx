@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
-import { Discord, Twitter, Send } from 'lucide-react'
+import { MessageCircle, Twitter, Send } from 'lucide-react'
 
 export default function Community(){
   const links = [
-    { name: 'Discord', href: '#', icon: Discord, color: 'from-indigo-500 to-cyan-400' },
+    { name: 'Discord', href: '#', icon: MessageCircle, color: 'from-indigo-500 to-cyan-400' },
     { name: 'X (Twitter)', href: '#', icon: Twitter, color: 'from-slate-300 to-white' },
     { name: 'Telegram', href: '#', icon: Send, color: 'from-fuchsia-500 to-pink-400' },
   ]
